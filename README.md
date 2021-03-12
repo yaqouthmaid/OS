@@ -7,7 +7,7 @@ semester : fall 2020
 
 instructor : ALI jaber
 
---------------- project description --------------- 
+--------------- project one description --------------- 
 
 The project is a simulation for some of the CPU scheduling algorithms and making a comparison between them.
 
