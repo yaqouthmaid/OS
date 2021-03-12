@@ -2,8 +2,11 @@
 operating system project one By Yaqout Hmaid 
 Grade : 96/100 
 semester : fall 2020 
+
 instructor : ALI jaber
+
 --------------- project description --------------- 
+
 The project is a simulation for some of the CPU scheduling algorithms and making a comparison between them.
 Write a program that does the following:
 1- Simulates the scheduling algorithms FCFS, SJF, RR, Priority, Multilevel Feedback Queues.
