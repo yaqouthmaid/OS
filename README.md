@@ -27,3 +27,26 @@ Write a program that does the following:
 7- Repeat steps (2) to (6) for 100 times, 1000 times, 10000 times, and 100000 times.
 
 8- Create a table summarizing your results showing ATT & AWT for all cases
+
+
+
+--------------- project two description --------------- 
+
+	The project simulates the memory management technique, "Multiple Partitions - Fixed Regions", known in IBM machines as MFT (Multiprogramming with Fixed number of Tasks).
+	Write a program which simulates the function and behavior of MFT memory management Technique.
+	Consider a memory of size 1 GB =1000 MB, 200 MB is allocated for the OS, leaving 800 MB for execution area.
+	The execution area is partitioned into 4 regions as follows:
+
+
+Partition	Size
+1	20MB
+2	80MB
+3	200MB
+4	500MB
+
+That is, the degree of multiprogramming is 4.
+
+	Initially, create 4 jobs in the ready queue, each with size fits one of the regions, and a time limit the job will stay in memory. Use a random function to crate these jobs.
+	Create a job queue which contains 6 jobs randomly, each job will be associated with its size in MBs, and the time requires to stay in memory. Jobs must be size  500MB, and the time limit must be reasonable.
+	When a job finishes execution, a new job is selected from the job queue on FCFS with Skip and admitted to the ready queue if there is a job that fits the free region, at the same time a replacement job is created randomly & added to the job queue, if no such job exists, the processor continues execution with another job leaving only 3 jobs in the ready queue temporarily and so on and so forth.
+
